@@ -3,6 +3,8 @@ import { InputText } from "../components/ui/InputText";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod"
+import { Link } from "react-router-dom";
+
 type FormData = {
     email: string;
     password: string;
@@ -44,6 +46,15 @@ export default function LoginForm() {
 
             <div>
                 <button type="submit">Login</button>
+            </div>
+
+            <div>
+                <p>
+                    Belum Punya Akun??{" "}
+                    <Link to="/register" className="text-red-600">
+                        Daftar Disini
+                    </Link>
+                </p>
             </div>
         </form>
     </div>
