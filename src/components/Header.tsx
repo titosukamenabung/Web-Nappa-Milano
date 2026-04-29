@@ -2,14 +2,13 @@ import { Home, Users, HelpCircle, ShoppingBasket, CircleUser } from "lucide-reac
 import { NavLink } from "react-router-dom";
 
 export const Header: React.FC = () => {
-  const currentPath = "#";
-
+//  const currentPath = "#";
+  
   const menuItems = [
     { label: "Beranda", href: "/", icon: <Home size={18} /> },
     { label: "Product", href: "/product", icon: <ShoppingBasket size={18} /> },
     { label: "About", href: "/about", icon: <Users size={18} /> },
     { label: "FAQ", href: "/faq", icon: <HelpCircle size={18} /> },
-    { label: "", href: "/login", icon: <CircleUser size={18} /> },
   ];
 
 

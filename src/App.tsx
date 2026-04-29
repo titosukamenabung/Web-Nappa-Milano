@@ -1,10 +1,8 @@
-// import LoginForm from "./pages/Loginform";
-// import RegisterForm from "./pages/RegisterForm";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Product from "./pages/Product";
 import Homepage from "./pages/Homepage";
-import Login from "./pages/Login";
-import RegisterEvent from "./pages/RegisterEvent";
+//import Login from "./pages/Login";
+//import RegisterEvent from "./pages/RegisterEvent";
 import About from "./pages/About";
 import FAQ from "./pages/FAQ";
 import MAinLayout from "./layouts/MainLayout";
